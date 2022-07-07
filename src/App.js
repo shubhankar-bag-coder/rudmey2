@@ -58,7 +58,7 @@ return (
 
 <div style={style} >
 
-{/* <Header/> */}
+<Header/>
 <NewExpense/>
 <div>
  <Expenses items={expenses}/>
