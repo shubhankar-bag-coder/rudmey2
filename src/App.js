@@ -1,11 +1,12 @@
+import React from "react";
 import Header from "./Components/Header";
 import Expenses from "./Components/Expenses/Expenses";
+import NewExpense from "./Components/NewExpense/NewExpense";
+
 
 // import 'bootstrap'
 // import 'bootstrap/dist/css/bootstrap.min.css';
 
-import React from "react";
-import NewExpense from "./Components/NewExpense/NewExpense";
 
 
 var style=
@@ -86,3 +87,10 @@ export default App;
 // Foot Notes. We are passing data to Expenseitems via props,
 // then Expense items is displaying some data from ExpenseDate.js & expenseitems is displayingsome data
 // We are also forwarding our data with the helps of props through multiple Components.
+
+
+
+// Important commit: 
+// Lecture 59. As of now we want to pass data from child to parent. We can do this by with the help of 'props'. 
+// Remember Props can pass data, we will now use it to pass data from child to parent component
+// We will pass data into a component that componen will pass it another component.
