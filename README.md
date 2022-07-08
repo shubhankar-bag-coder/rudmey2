@@ -1,4 +1,4 @@
-Hello welcome to my react App.
+Hello, welcome to my react App.
 
 1. for Production Build:
     npm run build & delete all other files.
