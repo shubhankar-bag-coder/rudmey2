@@ -36,7 +36,6 @@ const titleChangeHandler=(event)=>
 
 const amountChangeHandler=(event)=>
 {
-
     setEnteredAmount(event.taget.value);
     // SetUserInput({
     //     ...userInput,
@@ -66,9 +65,6 @@ const dateChangeHandler=(event)=>
     //     return {...prevState, enteredDate:event.target.value};
     // });
 };
-
-
-
 
 
 
